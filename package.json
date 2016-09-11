@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "materialize-css": "^0.97.7",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-mounter": "^1.2.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
