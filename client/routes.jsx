@@ -20,9 +20,6 @@ FlowRouter.route('/', {
 FlowRouter.route('/signup', {
   name: 'signup',
   action(){
-    if(Meteor.userId()){
-      FlowRouter.go('dashboard');
-    }
     mount(Signuplayout, {
       content: (<Signup/>)
     })
@@ -32,9 +29,6 @@ FlowRouter.route('/signup', {
 FlowRouter.route('/signin', {
   name: 'signin',
   action(){
-    if(Meteor.userId()){
-      FlowRouter.go('dashboard');
-    }
     mount(Signinlayout, {
       content: (<Signin/>)
     })
