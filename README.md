@@ -6,10 +6,6 @@ kadira:flow-router
 
 johnantoni:meteor-normalize
 
-dapearce:material-icons
-
-natestrauser:font-awesome
-
 metrophobe:materialize
 
 ultimatejs:tracker-react
@@ -26,6 +22,3 @@ react
 react-dom
 
 react-mounter
-
-materialize-css
-
